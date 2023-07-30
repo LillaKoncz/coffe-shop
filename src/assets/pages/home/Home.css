@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh;
+    min-width:100vw;
+    
+}
+
+.background-home{
+    background-image:url('../../images/background-espresso.jpg');
+    background-size: cover;
+    background-position: center;
+   
+   
+}
+
+.get-started{
+    margin-top: -15vh;
+}
+
+.custom-btn{
+   background-color: rgb(53, 23, 4, 0.8);
+   border:1px solid white;
+   width:180px;
+   height:55px;
+}
+
+.custom-btn:hover{
+    background-color: rgba(171, 123, 67, 0.8);
+}
+
+
+.custom-input{
+    height:40px;
+}

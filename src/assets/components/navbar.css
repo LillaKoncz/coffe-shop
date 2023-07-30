@@ -1,0 +1,23 @@
+:root{
+    --menuBasicColor:rgb(184, 116, 77);
+    --menuHoverColor:rgb(193, 158, 76);
+}
+.nav-links{
+    text-decoration: none;
+    color:rgb(243, 236, 223);
+    margin-left: 20px;
+    
+}
+
+.nav-links:hover{
+    color:rgb(239, 221, 167);
+}
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.no-nav-displayed{
+    display:none;
+}

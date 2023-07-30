@@ -1,0 +1,32 @@
+.cafe-box{
+    border: 1 px solid white;
+    border-radius: 10px;
+    color:white;
+    background-color: rgb(28, 27, 27);
+}
+
+.cafe-box:hover{
+    box-shadow: rgba(255, 238, 238, 0.35) 0px 5px 15px;
+}
+
+.custom-img{
+    width:260px;
+    height:240px;
+    border-radius: 10px;
+    margin:20px;
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.containerWithButton:hover{
+    cursor: pointer;
+}
+
+.menu-title{
+    letter-spacing: 7px;
+    color:rgb(193, 185, 185)
+}
