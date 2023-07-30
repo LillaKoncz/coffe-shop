@@ -16,8 +16,10 @@
 .nav{
     display: flex;
     justify-content: flex-end;
+    
 }
 
 .no-nav-displayed{
     display:none;
 }
+

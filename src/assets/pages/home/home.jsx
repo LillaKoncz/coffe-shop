@@ -14,7 +14,7 @@ export const Home = () => {
     <div className='get-started'>
       <h4 className='display-4 mb-4 text-light'>Melcsi Coffee</h4>
       <p className='text-light'>Spring the queue and order from our App!</p>
-      <button onClick ={()=>navigate('/shop')}className='btn btn-dark  custom-btn'>Get Started</button>
+      <button onClick ={()=>navigate('/coffe-shop/shop')}className='btn btn-dark  custom-btn'>Get Started</button>
     </div>
 </div>
    

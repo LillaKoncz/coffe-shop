@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.css';
-import 'bootstrap/dist/js/bootstrap.js';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import { Home } from './assets/pages/home/home';
 import { Cart } from './assets/pages/cart/cart';
 import { Shop } from './assets/pages/shop/shop';
@@ -18,10 +18,10 @@ function App() {
       <div>
       <Navbar className='m-5' />
       <Routes>
-        <Route path='/'element={<Home />} />
-        <Route path='/shop' element={<Shop />} />
-        <Route path='/cart' element={<Cart />} />
-        <Route path='/order' element={<Order/>} />
+        <Route path='/coffe-shop/'element={<Home />} />
+        <Route path='/coffe-shop/shop' element={<Shop />} />
+        <Route path='/coffe-shop/cart' element={<Cart />} />
+        <Route path='/coffe-shop/order' element={<Order/>} />
       </Routes>
       </div>
     </Router>

@@ -35,12 +35,12 @@ export const Cart = () => {
 {totalAmount > 0 ?
     <div className='checkot bg-black'>
       <p className=' subtotal fs-3'>SubTotal: {totalAmount} DKK</p>
-      <button onClick={() => navigate('/shop')} className=' lead btn btn-danger my-5 mx-2'>Continue Shopping</button>
-      <button onClick={()=> order('/order')} className=' lead btn btn-success'>Order</button></div> 
+      <button onClick={() => navigate('/coffe-shop/shop')} className=' lead btn btn-danger my-5 mx-2'>Continue Shopping</button>
+      <button onClick={()=> order('/coffe-shop/order')} className=' lead btn btn-success'>Order</button></div> 
       
       :<div className='empty-cart'> 
         <h1 className=' text-center  p-5 display-3'> Your Cart is empty</h1>
-        <button onClick={() => navigate('/shop')} className='customized-btn btn my-5 mx-2'>Order!</button></div>}
+        <button onClick={() => navigate('/coffe-shop/shop')} className='customized-btn btn my-5 mx-2'>Order!</button></div>}
      
     </div>
   )
